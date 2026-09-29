@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+:root {
+  --primary-color: #3b141c; /* Coffee brown */
+  --secondary-color: #f3961c; /* Cream */
+  --white-color:#fff;
+  --light-light-color:#faf4f5;
+  --medium-gray-color:#ccc;
+  --dark-color:#252525;
+
+  --font-weight-normal:400;
+   --font-weight-bold:700;
+    --font-weight-semibold:600;
+   --font-weight-medium:500;
+
+    --border-radius-m:8px;
+     --border-radius-s:30px;
+      --border-radius-circle:50%;
+       --site-max-width:1300px;
+
+        --font-size-s:0.9rem;
+        --font-size-n:1rem;
+        --font-size-s:1.12rem;
+        --font-size-s:1.5rem;
+        --font-size-s:2rem;
+        --font-size-s:2.3rem;
+}
+header{
+    background: var(--primary-color);
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar.nav-menu{
+    display: flex;
+    gap: 10px;
+}
+ul{
+    list-style: none ;
+}
+
+.navbar.nav-logo.logo-text{
+color: var(--white-color);
+}
+
+.navbar.nav-menu.nav-link {
+  
+  color: var(--white-color);
+}
+
